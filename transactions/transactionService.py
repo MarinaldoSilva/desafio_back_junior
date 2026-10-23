@@ -1,7 +1,7 @@
-from models import Transaction
+from .models import Transaction
 from django.db import transaction
-from ..holding.models import Holding
-from ..users.models import User
+from holding.models import Holding
+from users.models import User
 from rest_framework.exceptions import ValidationError
 
 

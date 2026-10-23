@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from ..wallet.mixins import MultiTenantScopeMixin
-from ..users.permissions import IsInvestidorOrReadOnly
+from wallet.mixins import MultiTenantScopeMixin
+from users.permissions import IsInvestidorOrReadOnly
 from .models import Portfolio
 from .serializers import PortfoliSerializer
 
